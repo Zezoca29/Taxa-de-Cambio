@@ -15,7 +15,7 @@ Acesse a aplicação em seu navegador em http://localhost:3000.
 
 ## Configuração da Chave da API
 
-Para usar a aplicação, é necessário obter uma chave de API da ExchangeRate-API e configurá-la no arquivo src/config.js. Altere o valor de API_KEY para sua chave de API.
+Para usar a aplicação, é necessário obter uma chave de API da ExchangeRate-API e configurá-la no arquivo index.html. Altere o valor de {apiKey} para sua chave de API.
 
 ## Tecnologias Utilizadas
 
