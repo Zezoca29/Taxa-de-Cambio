@@ -7,7 +7,7 @@ Esta é uma aplicação simples que permite calcular a taxa de câmbio entre dua
 1. Clone este repositório em sua máquina local usando o seguinte comando:
    git clone https://github.com/Zezoca29/Taxa-de-Cambio.git
    
-- cd seu-repositorio
+- cd Sistema de Câmbio
 - npm install
 - npm start
 
