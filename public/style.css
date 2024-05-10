@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #00ff00);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#resultado {
+    color: black;
+    font-weight: bold;
+}
+
+#retornoApi {
+    color: #00ff00;
+}
+
+.exchange-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 9999;
+    /* Para garantir que o card fique por cima de tudo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.exchange-card button.close-button {
+    background: none;
+    border: none;
+    color: #ff0000;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
